@@ -1,0 +1,29 @@
+@media (max-width: 1400px) {
+    .footer-content {
+        padding: 0 10px;
+    }
+}
+
+@media (max-width: 768px) {
+    .footer-content__wrapper {
+        flex-direction: column;
+        gap: 40px;
+    }
+
+    .footer-content {
+        margin: 30px 0 0 0;
+    }
+
+    .footer-logo, .footer-socials, .footer-order {
+        align-items: center;
+        margin: 0;
+    }
+
+    .footer-content__second-text {
+        margin-top: 20px;
+    }
+
+    .footer-top-line__item {
+        font-size: 18px;
+    }
+}

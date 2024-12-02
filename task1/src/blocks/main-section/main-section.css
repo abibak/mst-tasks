@@ -1,0 +1,80 @@
+.main-section {
+    display: flex;
+    max-height: 1009px;
+    background-color: #222;
+}
+
+.main-section__wrapper {
+    width: 100%;
+    max-width: var(--screen-max-width);
+    display: flex;
+    justify-content: space-between;
+    margin: 0 auto;
+    position: relative;
+}
+
+.main-section__left-side {
+    max-width: 783px;
+    width: 100%;
+    margin-left: 160px;
+    align-self: flex-end;
+}
+
+.main-section__right-side {
+    max-width: 763px;
+    width: 100%;
+    height: 1009px;
+    z-index: 1;
+}
+
+.main-section__picture {
+    max-width: inherit;
+    max-height: inherit;
+    width: 100%;
+    height: 100%;
+    background: url("../../assets/images/ecology_products.png") no-repeat center center;
+    background-size: cover;
+}
+
+.main-section__content {
+    max-width: 537px;
+    padding-bottom: 16px;
+}
+
+.main-section__title {
+    font-size: 80px;
+    padding: 50px 0;
+}
+
+.main-section__subtitle {
+    margin-bottom: 64px;
+}
+
+.main-section__subtitle > p {
+    display: inline-block;
+    font-size: 50px;
+}
+
+.price-list__container {
+    display: inline-block;
+}
+
+.price-list__item {
+    font-size: 24px;
+    background-color: #282829;
+    margin-bottom: 35px;
+    -moz-border-radius: 4px;
+    -webkit-border-radius: 4px;
+    border-radius: 4px;
+}
+
+.price-list__item:last-child {
+    margin-bottom: 0;
+}
+
+.order-button {
+    max-width: 191px;
+    height: 96px;
+    margin-top: 40px;
+}
+

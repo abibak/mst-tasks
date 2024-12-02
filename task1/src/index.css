@@ -1,0 +1,16 @@
+@import "./variables/variables.css";
+
+/* import all blocks */
+@import "blocks/wrapper/wrapper.css";
+@import "blocks/main-section/main-section.css";
+@import "blocks/header/header.css";
+@import "blocks/benefits/benefits.css";
+@import "blocks/feedback-form/feedback-form.css";
+@import "blocks/footer/footer.css";
+
+/* import all media */
+@import "media/main-section.media.css";
+@import "media/header.media.css";
+@import "media/feedback-form.media.css";
+@import "media/benefits.media.css";
+@import "media/footer.media.css";

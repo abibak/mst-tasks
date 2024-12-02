@@ -1,0 +1,63 @@
+.benefits {
+    height: 100%;
+    background-color: var(--basic-color-second);
+    padding-top: 100px;
+}
+
+.benefits_wrapper {
+    max-width: var(--screen-max-width);
+    height: inherit;
+    justify-content: space-between;
+    margin: 0 auto;
+}
+
+.benefits__left-image, .benefits__right-image {
+    width: 100%;
+    height: 724px;
+}
+
+.benefits__image {
+    width: 100%;
+    height: 100%;
+}
+
+.benefits__left-image > .benefits__image {
+    background: url("../../assets/images/ecology_products2.png") no-repeat center center;
+    background-size: cover;
+}
+
+.benefits__right-image > .benefits__image {
+    background: url("../../assets/images/ecology_products3.png") no-repeat center center;
+    background-size: cover;
+}
+
+.benefits__center-content {
+    max-width: 720px;
+    width: 100%;
+    padding: 0 53px;
+}
+
+.benefits-list {
+    margin-top: 53px;
+    flex-direction: column;
+    gap: 40px;
+}
+
+.benefits-list__item {
+    border-bottom: 1px solid #55565A;
+    padding-bottom: 40px;
+    height: 100%;
+    font-size: 24px;
+}
+
+.benefits-list__item:last-child {
+    padding-bottom: 0;
+    border-bottom: none;
+}
+
+.benefits-order-button {
+    max-width: 614px;
+    height: 78px;
+    margin-top: 80px;
+}
+
